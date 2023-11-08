@@ -17,7 +17,7 @@ export const ButtonContainer = styled.button`
       background: #e4105d;
 
       &::after {
-        content: '',
+        content: '';
         position: absolute;
         border: 1px solid #e4105d;
         top: -5px;
@@ -25,6 +25,11 @@ export const ButtonContainer = styled.button`
         width: calc(100% + 10px);
         height: calc(100% + 10px);
         border-radius: 22px;
+      }
+
+      &:hover {
+        opacity: 0.6;
+        cursor: pointer;
       }
   ` }
 `;
