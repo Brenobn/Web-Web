@@ -60,7 +60,7 @@ const Login = () => {
           </form>
           <Row>
             <ForgotPassword>Esqueci minha senha</ForgotPassword>
-            <CreateText>Criar Conta</CreateText>
+            <CreateText href='/signIn' >Criar Conta</CreateText>
           </Row>
         </Wrapper>
       </Column>

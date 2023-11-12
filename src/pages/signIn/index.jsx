@@ -10,7 +10,7 @@ import { Button } from '../../components/Button';
 import { Container, Wrapper, Column, Row, Title, TitleSignIn, SubtitleSignIn, Text, TextLink } from './styles';
 
 const SignIn = () => {
-  const { control, handleSubmit, formState: { errors } } = useForm();
+  const { control } = useForm();
 
 
   return (

@@ -68,7 +68,7 @@ export const ForgotPassword = styled.p`
   color: #e5e044;
 `;
 
-export const CreateText = styled.p`
+export const CreateText = styled.a`
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
