@@ -10,7 +10,7 @@ const Home = () => {
 
   const navigate = useNavigate();
 
-  const handleClickSignIn = () => {
+  const handleClickLogin = () => {
     navigate('/login');
   }
 
@@ -29,7 +29,7 @@ const Home = () => {
         <TextContent>
           Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo em comunidade com os melhores experts.
         </TextContent>
-        <Button title="Começar agora" variant="secondary" onClick={handleClickSignIn} /> 
+        <Button title="Começar agora" variant="secondary" onClick={handleClickLogin} /> 
       </div>
       <div>
         <img src={bannerImg} alt="Imagem principal" />
