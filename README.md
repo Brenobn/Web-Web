@@ -1,4 +1,4 @@
-📃 Sobre Este repositório contém uma aplicação em ReactJS utilizando JavaScript.
+📃 Sobre Este repositório contém uma aplicação em ReactJS utilizando TypeScript.
 
 Essa é a aplicação Web-Web. Nada mais nada menos que um clone da pagina da Dio. Nele o usuário é capaz de logar, estudar e ainda sim ver o seu progresso em cada matéria. Também é possivel ver o Racking da semana na comunidade da DIO...
 
