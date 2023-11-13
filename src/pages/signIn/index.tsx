@@ -26,9 +26,9 @@ const SignIn = () => {
             <TitleSignIn>Comece agora grátis</TitleSignIn>
             <SubtitleSignIn>Crie sua conta e make the change._</SubtitleSignIn>
             <form >
-              <Input name="Nome completo" type="text" placeholder="Nome completo" control={control} leftIcon={MdPerson()} />
-              <Input name="email" placeholder="E-mail" type="text" control={control} leftIcon={MdEmail()} />
-              <Input name="password" placeholder="Password" type="password" control={control} leftIcon={MdLock()}  />
+              <Input name="Nome completo" type="text" placeholder="Nome completo" control={control} leftIcon={<MdPerson />} />
+              <Input name="email" placeholder="E-mail" type="text" control={control} leftIcon={<MdEmail />} />
+              <Input name="password" placeholder="Password" type="password" control={control} leftIcon={<MdLock />}  />
               <Button title="Ciar minha conta" variant="secondary" type="submit" />
             </form>
             <Row>
